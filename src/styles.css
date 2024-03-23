@@ -4,3 +4,19 @@
   box-sizing: border-box;
   font-family: "Archivo", sans-serif;
 }
+
+@media (1280px <= width <= 1920px) {
+  body {
+    background-image: url(../src/assets/bg-img-full.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (0px <= width <= 1280px) {
+  body {
+    background-image: url(../src/assets/bg-img-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

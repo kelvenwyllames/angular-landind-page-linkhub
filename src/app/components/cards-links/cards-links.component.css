@@ -1,22 +1,25 @@
 a {
   position: relative;
-  width: 300px;
+  width: 330px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 150%;
-  font-size: 14px;
-  font-weight: 400;
-  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
   text-decoration: none;
   color: #ffffff;
   transition: 600ms;
-  background: rgb(191, 77, 55);
+  border-left: 2px solid #80322c;
+  border-top: 2px solid #bf4d37;
+  border-bottom: 2px solid #bf4d37;
+  border-right: 2px solid #bf4d37;
   background: linear-gradient(
-    180deg,
+    90deg,
     rgba(191, 77, 55, 1) 0%,
-    rgba(128, 50, 44, 1) 100%
+    rgba(191, 78, 55, 0) 100%
   );
 
   img {
